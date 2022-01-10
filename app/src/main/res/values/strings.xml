@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KnowYourGovernment</string>
+    <string name="title_activity_about">About</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="messageWithLink"><a href="https://developers.google.com/civic-information/">Google Civic Information API</a></string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_my">myActivity</string>
+    <string name="title_activity_view_holder">ViewHolder</string>
+</resources>

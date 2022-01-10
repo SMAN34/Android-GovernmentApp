@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about">
+
+    <TextView
+        android:id="@+id/about_about"
+        android:layout_width="355dp"
+        android:layout_height="135dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=" @2020 Manderfield Scott\n Version 1.0"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <TextView
+        android:id="@+id/knowYourGov"
+        android:layout_width="399dp"
+        android:layout_height="71dp"
+        android:text="Know Your Government"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/about_about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <TextView
+        android:id="@+id/poweredBy"
+        android:layout_width="130dp"
+        android:layout_height="22dp"
+        android:text="Powered by"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/CivicInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knowYourGov"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/CivicInfo"
+        android:layout_width="260dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/messageWithLink"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/about_about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
