@@ -23,9 +23,8 @@ public class DataLoader implements Runnable {
     private static final String TAG = "DATALOADER";
     private String data;
     private MainActivity mainActivity;
-    private String prefix = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBqPiTKe689xwBVRhZbhy-JoLFGdquvG3M&address=";
-    //private String prefix = "http://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBqPiTKe689xwBVRhZbhy-JoLFGdquvG3M&address=";
-    //key=AIzaSyBqPiTKe689xwBVRhZbhy-JoLFGdquvG3M
+    //keyremoved
+    private String prefix = "https://www.googleapis.com/civicinfo/v2/representatives?;
     public DataLoader(MainActivity mainActivity, String data) {
         this.mainActivity = mainActivity;
         this.data = data;
